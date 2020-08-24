@@ -1,0 +1,49 @@
+.square {
+ background: #fff;
+ border: 1px solid #999;
+ font-size: 24px;
+ float: left;
+ font-weight: bold;
+ line-height: 34px;
+ height: 34px;
+ margin-right: -1px;
+ margin-top: -1px;
+ padding: 0;
+ text-align: center;
+ width: 34px;
+}
+
+.board-row:after {
+ clear: both;
+ content: "";
+ display: block;
+}
+
+.game {
+ display: flex;
+ flex-direction: row;
+}
+.game-info {
+ margin-left: 20px;
+}
+.btn {
+  margin: 10px 0px 10px 0px;
+  margin-right:20px;
+  outline: none;
+  background-color: #FFC0CB;
+  border: none;
+  border-radius:5px;
+}
+.btn-2 {
+  margin-left: 25px;
+}
+
+.btn:hover{
+  background-color: #FFB6C1;
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: #FFB6C1;
+  transform: translateY(4px);
+}
